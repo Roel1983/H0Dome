@@ -99,7 +99,6 @@ module solid(points, loops) {
             bi * rings - 1
         ]]
     );
-    echo(faces);
 
     polyhedron(points= points, faces= faces);
 }
